@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Title
-st.title('Prediksi Kelayakan Konsumsi Air untuk di konsumsi')
+st.title('Pengujian Kelayakan Air untuk di konsumsi')
 st.image('img.jpg', use_column_width=True)
 st.write('Suatu kelayakan dari suatu air yang akan dikonsumsi berdasarkan dengan Tingkat keasaman air,  Kandungan mineral dalam air,  Kandungan padatan terlarut dalam air, Kandungan kloramina dalam air,  Kandungan sulfat dalam air,  Kandungan sulfat dalam air,  Kemampuan air untuk menghantarkan arus listrik,  Kandungan karbon organik dalam air,  Kandungan trihalometana dalam air,  Kekeruhan air akibat partikel-padatan yang mengambang di dalamnya ')
 st.write('Untuk menguji kelayakan air maka silahkan isi form berikut: ')
